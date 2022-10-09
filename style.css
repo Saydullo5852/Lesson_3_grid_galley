@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .grid_main {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 4px;
+    margin-bottom: 35px;
+    padding-bottom: 50px;
+  }
+  
+  .grid_item1 {
+    display: grid;
+    grid-template-columns: 19% 22% 40% 19%;
+    width: 100vw;
+    height: 100vh;
+    gap: 2px;
+  }
+  
+  .grid_item2 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    width: 100vw;
+    height: 100vh;
+    gap: 2px;
+  }
+  
+  .grid_item3 {
+    display: grid;
+    grid-template-columns: 27% 23% 23% 27%;
+    width: 100vw;
+    height: 100vh;
+    gap: 2px;
+  }
+  
+  .grid_item4 {
+    display: grid;
+    grid-template-columns: 23% 23% 18% 18% 18%;
+    width: 100vw;
+    height: 100vh;
+    gap: 2px;
+  }
+  
+  .grid_item5 {
+    display: grid;
+    grid-template-columns: 22% 22% 16% 20% 20%;
+    width: 100vw;
+    height: 100vh;
+    gap: 2px;
+  }
+  
+  .grid_title {
+      font-family: "Dancing Script", cursive;
+    margin: 25px;
+    color: rgb(31, 29, 29);
+    text-align: center;
+  }
+  
+  .grid_inner {
+    border: 1px solid black;
+  }
+  
+  .elegant {
+    color: rgb(75, 68, 68);
+  }
+  
+  .grid_sub {
+    color: aqua;
+  }
+  
+  .box1 {
+    background-image: url(/img/photo_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box2 {
+    background-image: url(/img/photo_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box3 {
+    background-image: url(/img/photo_12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box4 {
+    background-image: url(/img/photo_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box6 {
+    background-image: url(/img/photo_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box7 {
+    background-image: url(/img/photo_6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box8 {
+    background-image: url(/img/photo_25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box9 {
+    background-image: url(/img/photo_8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box10 {
+    background-image: url(/img/photo_9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box11 {
+    background-image: url(/img/photo_10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box12 {
+    background-image: url(/img/photo_11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box13 {
+    background-image: url(/img/photo_12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box14 {
+    background-image: url(/img/photo_13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box16 {
+    background-image: url(/img/photo_14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box17 {
+    background-image: url(/img/photo_15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box18 {
+    background-image: url(/img/photo_16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box19 {
+    background-image: url(/img/photo_17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box20 {
+    background-image: url(/img/photo_18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box21 {
+    background-image: url(/img/photo_19.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box22 {
+    background-image: url(/img/photo_20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box23 {
+    background-image: url(/img/photo_21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box24 {
+    background-image: url(/img/photo_22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box25 {
+    background-image: url(/img/photo_23.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
